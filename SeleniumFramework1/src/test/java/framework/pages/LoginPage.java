@@ -13,7 +13,6 @@ public class LoginPage {
 	public LoginPage(WebDriver ldriver)
 	{
 		this.driver=ldriver;
-		
 	}
 	
 	@FindBy(id="user_login")
