@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test getting ready.]]>
+    </line>
+    <line>
+      <![CDATA[Setting up reports and configurations done. Test started.]]>
+    </line>
+    <line>
+      <![CDATA[Starting browser, getting application ready.]]>
+    </line>
+    <line>
+      <![CDATA[Browser and app running.]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Reports Generated.]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Reports Generated.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12148" started-at="2020-04-28T02:41:49Z" finished-at="2020-04-28T02:42:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12148" started-at="2020-04-28T02:41:49Z" finished-at="2020-04-28T02:42:01Z">
+      <class name="framework.testcases.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:framework.testcases.LoginTest@475530b9]" name="setUpSuite" is-config="true" duration-ms="452" started-at="2020-04-28T10:41:49Z" finished-at="2020-04-28T10:41:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test getting ready.]]>
+            </line>
+            <line>
+              <![CDATA[Setting up reports and configurations done. Test started.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:framework.testcases.LoginTest@475530b9]" name="setup" is-config="true" duration-ms="5332" started-at="2020-04-28T10:41:49Z" finished-at="2020-04-28T10:41:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting browser, getting application ready.]]>
+            </line>
+            <line>
+              <![CDATA[Browser and app running.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:framework.testcases.LoginTest@475530b9]" name="loginApp" duration-ms="4808" started-at="2020-04-28T10:41:54Z" finished-at="2020-04-28T10:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:framework.testcases.LoginTest@475530b9]" name="tearDownMethod" is-config="true" duration-ms="847" started-at="2020-04-28T10:41:59Z" finished-at="2020-04-28T10:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:1, instance:framework.testcases.LoginTest@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Completed >>> Reports Generated.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="loginApp1()[pri:2, instance:framework.testcases.LoginTest@475530b9]" name="loginApp1" duration-ms="1" started-at="2020-04-28T10:42:00Z" finished-at="2020-04-28T10:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp1 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:framework.testcases.LoginTest@475530b9]" name="tearDownMethod" is-config="true" duration-ms="491" started-at="2020-04-28T10:42:00Z" finished-at="2020-04-28T10:42:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTest.loginApp1()[pri:2, instance:framework.testcases.LoginTest@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Completed >>> Reports Generated.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.testcases.LoginTest@475530b9]" name="tearDown" is-config="true" duration-ms="653" started-at="2020-04-28T10:42:01Z" finished-at="2020-04-28T10:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
